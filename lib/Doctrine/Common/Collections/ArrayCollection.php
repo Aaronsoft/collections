@@ -4,6 +4,7 @@ namespace Doctrine\Common\Collections;
 
 use ArrayIterator;
 use Closure;
+use Psalm;
 use Doctrine\Common\Collections\Expr\ClosureExpressionVisitor;
 use const ARRAY_FILTER_USE_BOTH;
 use function array_filter;
